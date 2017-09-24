@@ -252,7 +252,7 @@
         var friendPic = '<img width="300px" src=' + bestFriend.photo + '>';
         //show the modal
         $('#friend-modal').modal('show');
-        $('#friend-modal h4').html(friendName);
+        $('#friend-modal h4').html('Your new friend is ' + friendName);
         $('.modal-body').html(friendPic);
         //clear the entries
         $('#survey')[0].reset();
